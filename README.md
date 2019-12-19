@@ -34,7 +34,7 @@ You may now access the challenge interface through netcat: `nc 127.0.0.1 8000`
 
 Flag is:
 ```flagscript
-KAF{}
+KAF{k4r1_m4rx_15_7h3_b357}
 ```
 
 ## License
