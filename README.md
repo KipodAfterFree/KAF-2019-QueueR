@@ -6,17 +6,13 @@ QueueR is an information security challenge in the miscellaneous category, and w
 
 I found that pcap file on the USB drive of a communist developer I know. Can you find out what he's trying to say?
 
-## Challenge exploit
-
-A
-
 ## Challenge solution
 
-A
+Based on the pcap file, we can understand the protocol is like this: the server sends a PNG file that is a QR code. The QR code represents an ISBN number, that leads to a corresponding book, which the client responds to the server. We can create a script that does that and gets the flag eventually. [This](writeup.py) is a script that does that.
 
 ## Building and installing
 
-[Clone](https://github.com/omerk2511/KAF-2019-QueueR/archive/master.zip) the repository, then type the following command to build the container:
+[Clone](https://github.com/KipodAfterFree/KAF-2019-QueueR/archive/master.zip) the repository, then type the following command to build the container:
 ```bash
 docker build . -t queuer
 ```
